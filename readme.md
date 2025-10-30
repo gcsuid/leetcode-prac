@@ -1,0 +1,1 @@
+***has all the code or patterns i encounter while solving dsa***
