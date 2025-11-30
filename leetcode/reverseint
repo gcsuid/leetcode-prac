@@ -1,0 +1,10 @@
+class solution:
+    def reverseinteger(self, x):
+        sign = -1 if x < 0 else 1
+        reversedstr = str(abs(x))[::-1]
+        reversedint = sign * int(reversedstr)
+        if reversedint >= 2**31 - 1 or reversedint <= -2**31:
+            return 0
+        return reversedint
+
+        
