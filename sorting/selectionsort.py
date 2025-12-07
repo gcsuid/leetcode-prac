@@ -7,3 +7,8 @@ def SelectionSort(arr):
                 minindex = j
         arr[i], arr[minindex] = arr[minindex], arr[i]
     return arr
+
+
+arr = list(map(int, input("enter numbers separated by spaces:").split()))
+sorted_arr = SelectionSort(arr)
+print("sorted array is:", sorted_arr)

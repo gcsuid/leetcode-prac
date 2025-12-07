@@ -10,3 +10,8 @@ def insertionSort(arr):
         
         arr[j + 1] = key  # place key in correct position
     return arr
+
+
+arr = list(map(int,input("enter the separated values:").split()))
+sorted_arr = insertionSort(arr)
+print("sorted array is:", sorted_arr)
